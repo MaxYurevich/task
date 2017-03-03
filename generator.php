@@ -1,9 +1,10 @@
 <?php
 
 // Функция генератор случайной строки
-function generate_string($n) {
-    $string = "";
-    $alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+function generate_string($n)
+{
+    $string = '';
+    $alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
     $length = strlen($alphabet);
 
     for ($i = 0; $i < $n; $i++) {

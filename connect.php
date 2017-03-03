@@ -6,6 +6,6 @@ try {
         PDO::ATTR_PERSISTENT => true
     ));
 } catch (PDOException $e) {
-    print "Error!: " . $e->getMessage() . "<br/>";
+    print 'Error!: ' . $e->getMessage() . '<br/>';
     die();
 }
